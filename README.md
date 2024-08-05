@@ -1,7 +1,8 @@
 # localization
-This code is to get a plot of the Localization function of a certaing scattering state. 
 
-Based on [this paper](https://www.sciencedirect.com/science/article/pii/S0370269304001753) I try to get which are the most important scattering states of the system to get a significant and as small as posible model space.
+Este script es usado para calcular la función de localización de un estado de dispersión. La teoría detrás del método se encuentra en el [siguiente paper](https://www.sciencedirect.com/science/article/pii/S0370269304001753). Este método es útil para determinar que región del continuo es mas significativa para determinar el espacio modelo.
+
+Este programa funciona con un programa en fortran que coloquialmente denominamos [CWF](https://www.sciencedirect.com/science/article/abs/pii/001046559400135O). El script modifica los inputs, ordena correr el programa y luego procesa los outputs.
 
 ## Comented Version of the code 
 
